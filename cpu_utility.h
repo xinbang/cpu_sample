@@ -17,3 +17,9 @@ enum APPQOS
 
 void setProcessQoS(APPQOS qos);
 void setThreadQoS(APPQOS qos);
+
+/* Get the CPU toplogy
+* physical/logical core number
+* big/little core information
+*/
+void GetCpuInfo();
